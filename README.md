@@ -37,6 +37,3 @@ terraform apply
 ```python
 terraform plan -var 'name=any new name'
 terraform plan -var 'ami_id= new ami id'
-
-☆彡(ノ^ ^)ノ Congratulations ヘ(^ ^ヘ)☆彡
-:v::ok_hand:
