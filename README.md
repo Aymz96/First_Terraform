@@ -32,8 +32,7 @@ This repository will display how to use this project from an engineering point o
   - Data and storage
   - All the packages and exact state of a machine when AMI was created.
 
-- - If you haven't already, please go to the NodeSampleApp_tf repository follow the steps before continuing to Terraform or clone the repo from here:
-git clone git@github.com:Aymz96/NodeSampleApp_tf.git
+If you haven't already, please go to the NodeSampleApp_tf repository follow the steps before continuing to Terraform or clone the repo from here: `git clone git@github.com:Aymz96/NodeSampleApp_tf.git`
 
 ### Setup Terraform to run the app
 - The main.tf and variables.tf needs to be configured to create an EC2 using an AMI and VPC which adds security to the cloud instance, as done in this repository.
