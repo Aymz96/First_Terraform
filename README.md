@@ -6,6 +6,9 @@ This repository will display how to use this project from an engineering point o
 
 - In the NodeSampleApp_tf repo theres a packer.json file which has been used to develop an AMI in order to launch the AWS instance.
 
+###### Notice:
+If you haven't already, please go to the NodeSampleApp_tf repository follow the steps before continuing to Terraform or clone the repo from here: `git clone git@github.com:Aymz96/NodeSampleApp_tf.git`
+
 ### Prerequisites
 - In order to run the NodeSampleApp_tf on the EC2 cloud you must ensure you have the following below:
 
@@ -31,8 +34,6 @@ This repository will display how to use this project from an engineering point o
   - The operating system
   - Data and storage
   - All the packages and exact state of a machine when AMI was created.
-
-If you haven't already, please go to the NodeSampleApp_tf repository follow the steps before continuing to Terraform or clone the repo from here: `git clone git@github.com:Aymz96/NodeSampleApp_tf.git`
 
 ### Setup Terraform to run the app
 - The main.tf and variables.tf needs to be configured to create an EC2 using an AMI and VPC which adds security to the cloud instance, as done in this repository.
