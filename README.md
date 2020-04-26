@@ -1,4 +1,14 @@
-# Terraform :computer: :cd: :electric_plug:
+# Terraform :computer: :cd:
+
+This repository will display how to use this project from an engineering point of view.
+
+- The project consists of a main.tf file which runs the main code for the terraform and variables.tf file which is used to create variables and call them in the main.tf file.
+
+- In the NodeSampleApp_tf repo theres a packer.json file which has been used to develop an AMI in order to launch the AWS instance.
+
+### How to Setup Terraform to run the app
+- 
+
 
 ### What is Terraform?
 - Terraform is an Orchestration tool which part of the infrastructure as code.

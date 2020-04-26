@@ -3,9 +3,9 @@ variable "vpc_id" {
 }
 
 variable "name" {
-  default = "Aymz_Terraform_App_2"
+  default = "Aymz_Terraform_NodeApp"
 }
 
 variable "ami_id" {
-  default = "ami-0bceebcfc0c12d935"
+  default = "ami-0f5faf71fc3100cc7"
 }
