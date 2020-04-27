@@ -117,6 +117,7 @@ resource "aws_instance" "app_instance" {
         Name                    = var.name
     }
     key_name                    = "Aymz_vpc"
+    # user_data = data.template_file.app_init.rendered
 
     connection {
       user = "ubuntu"
@@ -128,7 +129,14 @@ resource "aws_instance" "app_instance" {
     provisioner "remote-exec" {
       inline = [
        "cd /home/ubuntu/app",
-       "sudo npm start",
+       "sudo npm start &",
+       # (&) Sends processes to the background
+       # "PID=$!",
+       # "sleep 2s",
+       # "kill -INT $PID"
      ]
+    # data "template_file" "app_init" {
+    #   template = "${file("./templates/script.sh.tpl")}"
+    # }
   }
 }
